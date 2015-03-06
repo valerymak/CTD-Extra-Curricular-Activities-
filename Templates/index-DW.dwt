@@ -200,7 +200,7 @@ body{
     z-index:9999;
  }
   #navMenu li:hover {
-   background:#09F;
+   background:#C0DFF3;
  }
  #navMenu ul li:hover ul li a:hover {
     color:#5a7d95;
@@ -226,7 +226,7 @@ body{
 
 <body>
 <!-- TemplateBeginEditable name="Video" -->
-<div id="apDiv11"></div>
+<div id="apDiv11"><img src="../homepage/Needed Images/10184.jpg" width="900" height="300" alt="drama club image" align="middle"/></div>
 <!-- TemplateEndEditable -->
 <div id="apDiv12"><h1><!-- TemplateBeginEditable name="Club Name" -->Title<!-- TemplateEndEditable --></h1>
   <!-- TemplateBeginEditable name="Club Description" -->
