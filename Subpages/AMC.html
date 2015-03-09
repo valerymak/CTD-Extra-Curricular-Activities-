@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="index-DW.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index-DW.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<link rel="stylesheet" type="text/css" href="file:///Macintosh HD/Users/CTD-2/Desktop/homepage/index-DW.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>index-DW.html</title>
@@ -74,7 +73,8 @@
 
 body{
 	background:#9cb1bf;
-
+	position: fixed;
+	top: 126px;
 }
 
 .IDK {
@@ -116,15 +116,15 @@ body{
 	left:0px;
 	top:185px;
 	width:1122px;
-	height:282px;
+	height:437px;
 	z-index:3;
 }
 #apDiv12 {
 	position:absolute;
-	left:0px;
-	top:476px;
+	left:10px;
+	top:633px;
 	width:1123px;
-	height:263px;
+	height:231px;
 	z-index:4;
 	background-color: #50728A;
 	font-size: 27px;
@@ -132,8 +132,8 @@ body{
 }
 #apDiv13 {
 	position:absolute;
-	left:0px;
-	top:755px;
+	left:8px;
+	top:880px;
 	width:513px;
 	height:258px;
 	z-index:5;
@@ -141,9 +141,9 @@ body{
 }
 #apDiv14 {
 	position:absolute;
-	left:551px;
-	top:755px;
-	width:573px;
+	left:536px;
+	top:880px;
+	width:596px;
 	height:258px;
 	z-index:6;
 	background-color: #50728A;
@@ -177,12 +177,12 @@ body{
 
 
   #navMenu ul li a {
-    text-align:center;
+    text-align:center; 
     height:30px;
     width:183px;
     display:block;
     color:#000;
-    font-family:"Comic Sans MS", cursive;
+    font-family:"quicksand, quicksand Dash Regular", quicksand, quicksand Dash Regular;
     text-decoration:none;
     color:#FFF;
     border:1px solid #FFF;
@@ -200,7 +200,7 @@ body{
     z-index:9999;
  }
   #navMenu li:hover {
-   background:#09F;
+   background:#C0DFF3;
  }
  #navMenu ul li:hover ul li a:hover {
     color:#5a7d95;
@@ -219,16 +219,28 @@ body{
   display: inline-table;
 
  }
+ #apDIV11 {
+	 position:absolute;
+ }
+ 
 </style>
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
 </head>
 
 <body>
 <!-- InstanceBeginEditable name="Video" -->
 <div id="apDiv11"></div>
 <!-- InstanceEndEditable -->
-<div id="apDiv12"><h1><!-- InstanceBeginEditable name="Club Name" -->American Mathematics Club(AMC)<!-- InstanceEndEditable --></h1>
+<div id="apDiv12">
+  <h1><!-- InstanceBeginEditable name="Club Name" -->AMC <!-- InstanceEndEditable --></h1>
   <!-- InstanceBeginEditable name="Club Description" -->
   <p >Description</p>
 <!-- InstanceEndEditable --></div>
@@ -239,15 +251,15 @@ body{
   <h1> Join the Club!</h1>
   <p>Send an email to <!-- InstanceBeginEditable name="Teacher Email" -->teacher<!-- InstanceEndEditable -->@ais.edu.hk to contact this teacher.</p><p>&nbsp;</p>
 <p>&nbsp;</p></div>
-<span style="color:#5a7d95"><img src="../Needed Images/logo.gif" width="141" height="37" alt="ais logo" style="position:absolute; left: 833px; top: 92px;"/></span><img src="../Needed Images/244938d91aaa2221d1ce7408c4ea83.gif" width="620" height="91" alt="eca" style="position:absolute; left: 322px; top: 21px;"/>
+<span style="color:#5a7d95"><img src="../homepage/Needed Images/logo.gif" width="153" height="49" alt="ais logo" style="position:absolute; left: 833px; top: 92px; width: 140px; height: 37px;"/></span><img src="../homepage/Needed Images/244938d91aaa2221d1ce7408c4ea83.gif" width="620" height="91" alt="eca" style="position:absolute; left: 322px; top: 21px;"/>
 <div id="navMenu">
 	<ul>
    	  <li> <a href="#">Sports</a>
        <ul>
-       	<li><a href="#">Basketball</a></li>
-		<li><a href="#">Soccer</a></li>
-    	<li><a href="#">Badminton</a></li>
-    	<li><a href="#">Swimming</a></li>
+       	<li><a href="basketball.html">Basketball</a></li>
+		<li><a href="Soccer.html">Soccer</a></li>
+    	<li><a href="Badminton.html">Badminton</a></li>
+    	<li><a href="Swimming.html">Swimming</a></li>
 
        </ul>
    	  </li>
@@ -255,10 +267,10 @@ body{
     <ul>
    	  <li><a href="#">Educational</a>
        <ul>
-       	<li><a href="#">AMC</a></li>
-		<li><a href="#">Peer Tutoring</a></li>
-    	<li><a href="#">MUN</a></li>
-        <li><a href="#">Creative Writing</a></li>
+       	<li><a href="AMC.html">AMC</a></li>
+		<li><a href="Peer tutoring.html">Peer Tutoring</a></li>
+    	<li><a href="MUN.html">MUN</a></li>
+        <li><a href="Creativewriting.html">Creative Writing</a></li>
 
        </ul>
 	  </li>
@@ -266,37 +278,37 @@ body{
     <ul>
    	  <li><a href="#">Leadership</a>
        <ul>
-       	<li><a href="#">Atheletic Council</a></li>
-		<li><a href="#">Student Council</a></li>
+       	<li><a href="athletic council.html">Atheletic Council</a></li>
+		<li><a href="Student council.html">Student Council</a></li>
        </ul>
 	  </li>
     </ul>
      <ul>
    	  <li><a href="#">Global Concern</a>
        <ul>
-       	<li><a href="../Bottlerecycling.html">Bottle Recycling</a></li>
-		<li><a href="../Humanrights.html">Human Rights</a></li>
-        <li><a href="../Communityservice.html">Community Service</a></li>
-        <li><a href="../Kissmyearth.html">Kiss My Earth</a></li>
-        <li><a href="../jlc.html">Jordan Leadership</a></li>
-        <li><a href="../globalissues.html">Global Issues Group</a></li>
+       	<li><a href="Bottlerecycling.html">Bottle Recycling</a></li>
+		<li><a href="Humanrights.html">Human Rights</a></li>
+        <li><a href="Communityservice.html">Community Service</a></li>
+        <li><a href="Kissmyearth.html">Kiss My Earth</a></li>
+        <li><a href="jlc.html">Jordan Leadership</a></li>
+        <li><a href="globalissues.html">Global Issues Group</a></li>
        </ul>
 	  </li>
     </ul>
      <ul>
    	  <li><a href="#">Arts</a>
        <ul>
-       	<li><a href="../Animeclub.html">Anime Club</a></li>
-		<li><a href="../Jazzband.html">Jazz Band</a></li>
-        <li><a href="../Danceclub.html">Dance Club</a></li>
+       	<li><a href="Animeclub.html">Anime Club</a></li>
+		<li><a href="Jazzband.html">Jazz Band</a></li>
+        <li><a href="Danceclub.html">Dance Club</a></li>
        </ul>
 	  </li>
     </ul>
      <ul>
    	  <li><a href="#">Technology</a>
        <ul>
-       	<li><a href="../Engineering.html">Engineering Club</a></li>
-		<li><a href="../Yearbook.html">Yearbook Club</a></li>
+       	<li><a href="Engineering.html">Engineering Club</a></li>
+		<li><a href="Yearbook.html">Year Book</a></li>
        </ul>
 	  </li>
     </ul>
