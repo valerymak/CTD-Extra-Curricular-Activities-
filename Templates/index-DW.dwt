@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link rel="stylesheet" type="text/css" href="file:///Macintosh HD/Users/CTD-2/Desktop/homepage/index-DW.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>index-DW.html</title>
@@ -240,7 +239,8 @@ function MM_preloadImages() { //v3.0
 <!-- TemplateBeginEditable name="Video" -->
 <div id="apDiv11"></div>
 <!-- TemplateEndEditable -->
-<div id="apDiv12"><h1><!-- TemplateBeginEditable name="Club Name" -->Title<!-- TemplateEndEditable --></h1>
+<div id="apDiv12">
+  <h1><!-- TemplateBeginEditable name="Club Name" -->Title <!-- TemplateEndEditable --></h1>
   <!-- TemplateBeginEditable name="Club Description" -->
   <p >Description</p>
 <!-- TemplateEndEditable --></div>
@@ -256,10 +256,10 @@ function MM_preloadImages() { //v3.0
 	<ul>
    	  <li> <a href="#">Sports</a>
        <ul>
-       	<li><a href="#">Basketball</a></li>
-		<li><a href="#">Soccer</a></li>
-    	<li><a href="#">Badminton</a></li>
-    	<li><a href="#">Swimming</a></li>
+       	<li><a href="../Subpages/basketball.html">Basketball</a></li>
+		<li><a href="../Subpages/Soccer.html">Soccer</a></li>
+    	<li><a href="../Subpages/Badminton.html">Badminton</a></li>
+    	<li><a href="../Subpages/Swimming.html">Swimming</a></li>
 
        </ul>
    	  </li>
@@ -267,10 +267,10 @@ function MM_preloadImages() { //v3.0
     <ul>
    	  <li><a href="#">Educational</a>
        <ul>
-       	<li><a href="#">AMC</a></li>
-		<li><a href="#">Peer Tutoring</a></li>
-    	<li><a href="#">MUN</a></li>
-        <li><a href="#">Creative Writing</a></li>
+       	<li><a href="../Subpages/AMC.html">AMC</a></li>
+		<li><a href="../Subpages/Peer tutoring.html">Peer Tutoring</a></li>
+    	<li><a href="../Subpages/MUN.html">MUN</a></li>
+        <li><a href="../Subpages/Creativewriting.html">Creative Writing</a></li>
 
        </ul>
 	  </li>
@@ -278,37 +278,37 @@ function MM_preloadImages() { //v3.0
     <ul>
    	  <li><a href="#">Leadership</a>
        <ul>
-       	<li><a href="#">Atheletic Council</a></li>
-		<li><a href="#">Student Council</a></li>
+       	<li><a href="../Subpages/athletic council.html">Atheletic Council</a></li>
+		<li><a href="../Subpages/Student council.html">Student Council</a></li>
        </ul>
 	  </li>
     </ul>
      <ul>
    	  <li><a href="#">Global Concern</a>
        <ul>
-       	<li><a href="../Bottlerecycling.html">Bottle Recycling</a></li>
-		<li><a href="../Humanrights.html">Human Rights</a></li>
-        <li><a href="../Communityservice.html">Community Service</a></li>
-        <li><a href="../Kissmyearth.html">Kiss My Earth</a></li>
-        <li><a href="../jlc.html">Jordan Leadership</a></li>
-        <li><a href="../globalissues.html">Global Issues Group</a></li>
+       	<li><a href="../Subpages/Bottlerecycling.html">Bottle Recycling</a></li>
+		<li><a href="../Subpages/Humanrights.html">Human Rights</a></li>
+        <li><a href="../Subpages/Communityservice.html">Community Service</a></li>
+        <li><a href="../Subpages/Kissmyearth.html">Kiss My Earth</a></li>
+        <li><a href="../Subpages/jlc.html">Jordan Leadership</a></li>
+        <li><a href="../Subpages/globalissues.html">Global Issues Group</a></li>
        </ul>
 	  </li>
     </ul>
      <ul>
    	  <li><a href="#">Arts</a>
        <ul>
-       	<li><a href="../Animeclub.html">Anime Club</a></li>
-		<li><a href="../Jazzband.html">Jazz Band</a></li>
-        <li><a href="../Danceclub.html">Dance Club</a></li>
+       	<li><a href="../Subpages/Animeclub.html">Anime Club</a></li>
+		<li><a href="../Subpages/Jazzband.html">Jazz Band</a></li>
+        <li><a href="../Subpages/Danceclub.html">Dance Club</a></li>
        </ul>
 	  </li>
     </ul>
      <ul>
    	  <li><a href="#">Technology</a>
        <ul>
-       	<li><a href="../Engineering.html">Engineering Club</a></li>
-		<li><a href="../Yearbook.html">Yearbook Club</a></li>
+       	<li><a href="../Subpages/Engineering.html">Engineering Club</a></li>
+		<li><a href="../Subpages/Yearbook.html">Year Book</a></li>
        </ul>
 	  </li>
     </ul>
