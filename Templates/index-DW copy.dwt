@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index-DW.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>index-DW.html</title>
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
 <style type="text/css">
 #apDiv1 {
 	position:absolute;
@@ -73,7 +73,8 @@
 
 body{
 	background:#9cb1bf;
-	
+	position: fixed;
+	top: 126px;
 }
 
 .IDK {
@@ -170,8 +171,8 @@ body{
     float:left;
     position:relative;
     background:#5a7d95;
-	
-	
+
+
  }
 
 
@@ -181,11 +182,11 @@ body{
     width:183px;
     display:block;
     color:#000;
-    font-family:"Comic Sans MS", cursive;
+    font-family:"quicksand, quicksand Dash Regular", quicksand, quicksand Dash Regular;
     text-decoration:none;
     color:#FFF;
     border:1px solid #FFF;
-    text-shadow:1px 1px 1px #000; 
+    text-shadow:1px 1px 1px #000;
  }
 
  #navMenu ul ul {
@@ -196,31 +197,35 @@ body{
 
   #navMenu ul li:hover ul {
     visibility:visible;
-    z-index:9999; 
+    z-index:9999;
  }
   #navMenu li:hover {
-   background:#09F;
+   background:#C0DFF3;
  }
  #navMenu ul li:hover ul li a:hover {
     color:#5a7d95;
     background:#CCC;
  }
-  #navMenu a:hover {   
+  #navMenu a:hover {
   color:#000;
- } 
+ }
  .clearFloat {
-    clear:both; 
+    clear:both;
     margin:0;
     padding:0;
  }
- #navMenu ul li { 
+ #navMenu ul li {
 
-  display: inline-table; 
- 
+  display: inline-table;
+
  }
+ #apDIV11 {
+	 position:absolute;
+ }
+ 
 </style>
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 <script type="text/javascript">
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
@@ -231,30 +236,30 @@ function MM_preloadImages() { //v3.0
 </head>
 
 <body>
-<!-- InstanceBeginEditable name="Video" -->
-<div id="apDiv11"><img src="../homepage/Needed Images/10184.jpg" width="900" height="300" alt="drama club image" align="middle"/></div>
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="Video" -->
+<div id="apDiv11">d</div>
+<!-- TemplateEndEditable -->
 <div id="apDiv12">
-  <h1><!-- InstanceBeginEditable name="Club Name" -->Cross Country<!-- InstanceEndEditable --></h1>
-  <!-- InstanceBeginEditable name="Club Description" -->
+  <h1><!-- TemplateBeginEditable name="Club Name" -->Title <!-- TemplateEndEditable --></h1>
+  <!-- TemplateBeginEditable name="Club Description" -->
   <p >Description</p>
-<!-- InstanceEndEditable --></div>
-<!-- InstanceBeginEditable name="Image" -->
+<!-- TemplateEndEditable --></div>
+<!-- TemplateBeginEditable name="Image" -->
 <div id="apDiv13"></div>
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
 <div id="apDiv14">
   <h1> Join the Club!</h1>
-  <p>Send an email to <!-- InstanceBeginEditable name="Teacher Email" -->teacher<!-- InstanceEndEditable -->@ais.edu.hk to contact this teacher.</p><p>&nbsp;</p>
+  <p>Send an email to <!-- TemplateBeginEditable name="Teacher Email" -->teacher<!-- TemplateEndEditable -->@ais.edu.hk to contact this teacher.</p><p>&nbsp;</p>
 <p>&nbsp;</p></div>
 <span style="color:#5a7d95"><img src="../homepage/Needed Images/logo.gif" width="153" height="49" alt="ais logo" style="position:absolute; left: 833px; top: 92px; width: 140px; height: 37px;"/></span><img src="../homepage/Needed Images/244938d91aaa2221d1ce7408c4ea83.gif" width="620" height="91" alt="eca" style="position:absolute; left: 322px; top: 21px;"/>
 <div id="navMenu">
 	<ul>
    	  <li> <a href="#">Sports</a>
        <ul>
-       	<li><a href="basketball.html">Basketball</a></li>
-		<li><a href="Soccer.html">Soccer</a></li>
-    	<li><a href="Badminton.html">Badminton</a></li>
-    	<li><a href="Swimming.html">Swimming</a></li>
+       	<li><a href="../Subpages/basketball.html">Basketball</a></li>
+		<li><a href="../Subpages/Soccer.html">Soccer</a></li>
+    	<li><a href="../Subpages/Badminton.html">Badminton</a></li>
+    	<li><a href="../Subpages/Swimming.html">Swimming</a></li>
 
        </ul>
    	  </li>
@@ -262,10 +267,10 @@ function MM_preloadImages() { //v3.0
     <ul>
    	  <li><a href="#">Educational</a>
        <ul>
-       	<li><a href="AMC.html">AMC</a></li>
-		<li><a href="Peer tutoring.html">Peer Tutoring</a></li>
-    	<li><a href="MUN.html">MUN</a></li>
-        <li><a href="Creativewriting.html">Creative Writing</a></li>
+       	<li><a href="../Subpages/AMC.html">AMC</a></li>
+		<li><a href="../Subpages/Peer tutoring.html">Peer Tutoring</a></li>
+    	<li><a href="../Subpages/MUN.html">MUN</a></li>
+        <li><a href="../Subpages/Creativewriting.html">Creative Writing</a></li>
 
        </ul>
 	  </li>
@@ -273,41 +278,41 @@ function MM_preloadImages() { //v3.0
     <ul>
    	  <li><a href="#">Leadership</a>
        <ul>
-       	<li><a href="athleticcouncil.html">Atheletic Council</a></li>
-		<li><a href="Student council.html">Student Council</a></li>
+       	<li><a href="../Subpages/athleticcouncil.html">Atheletic Council</a></li>
+		<li><a href="../Subpages/Student council.html">Student Council</a></li>
        </ul>
 	  </li>
     </ul>
      <ul>
    	  <li><a href="#">Global Concern</a>
        <ul>
-       	<li><a href="Bottlerecycling.html">Bottle Recycling</a></li>
-		<li><a href="Humanrights.html">Human Rights</a></li>
-        <li><a href="Communityservice.html">Community Service</a></li>
-        <li><a href="Kissmyearth.html">Kiss My Earth</a></li>
-        <li><a href="jlc.html">Jordan Leadership</a></li>
-        <li><a href="globalissues.html">Global Issues Group</a></li>
+       	<li><a href="../Subpages/Bottlerecycling.html">Bottle Recycling</a></li>
+		<li><a href="../Subpages/Humanrights.html">Human Rights</a></li>
+        <li><a href="../Subpages/Communityservice.html">Community Service</a></li>
+        <li><a href="../Subpages/Kissmyearth.html">Kiss My Earth</a></li>
+        <li><a href="../Subpages/jlc.html">Jordan Leadership</a></li>
+        <li><a href="../Subpages/globalissues.html">Global Issues Group</a></li>
        </ul>
 	  </li>
     </ul>
      <ul>
    	  <li><a href="#">Arts</a>
        <ul>
-       	<li><a href="Animeclub.html">Anime Club</a></li>
-		<li><a href="Jazzband.html">Jazz Band</a></li>
-        <li><a href="Danceclub.html">Dance Club</a></li>
+       	<li><a href="../Subpages/Animeclub.html">Anime Club</a></li>
+		<li><a href="../Subpages/Jazzband.html">Jazz Band</a></li>
+        <li><a href="../Subpages/Danceclub.html">Dance Club</a></li>
        </ul>
 	  </li>
     </ul>
      <ul>
    	  <li><a href="#">Technology</a>
        <ul>
-       	<li><a href="Engineering.html">Engineering Club</a></li>
-		<li><a href="Yearbook.html">Year Book</a></li>
+       	<li><a href="../Subpages/Engineering.html">Engineering Club</a></li>
+		<li><a href="../Subpages/Yearbook.html">Year Book</a></li>
        </ul>
 	  </li>
     </ul>
 <br class="clearFloat" />
 </div>
 </body>
-<!-- InstanceEnd --></html>
+</html>

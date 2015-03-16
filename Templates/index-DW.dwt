@@ -73,8 +73,7 @@
 
 body{
 	background:#9cb1bf;
-	position: fixed;
-	top: 126px;
+	
 }
 
 .IDK {
@@ -171,8 +170,8 @@ body{
     float:left;
     position:relative;
     background:#5a7d95;
-
-
+	
+	
  }
 
 
@@ -182,11 +181,11 @@ body{
     width:183px;
     display:block;
     color:#000;
-    font-family:"quicksand, quicksand Dash Regular", quicksand, quicksand Dash Regular;
+    font-family:"Comic Sans MS", cursive;
     text-decoration:none;
     color:#FFF;
     border:1px solid #FFF;
-    text-shadow:1px 1px 1px #000;
+    text-shadow:1px 1px 1px #000; 
  }
 
  #navMenu ul ul {
@@ -197,32 +196,28 @@ body{
 
   #navMenu ul li:hover ul {
     visibility:visible;
-    z-index:9999;
+    z-index:9999; 
  }
   #navMenu li:hover {
-   background:#C0DFF3;
+   background:#09F;
  }
  #navMenu ul li:hover ul li a:hover {
     color:#5a7d95;
     background:#CCC;
  }
-  #navMenu a:hover {
+  #navMenu a:hover {   
   color:#000;
- }
+ } 
  .clearFloat {
-    clear:both;
+    clear:both; 
     margin:0;
     padding:0;
  }
- #navMenu ul li {
+ #navMenu ul li { 
 
-  display: inline-table;
-
- }
- #apDIV11 {
-	 position:absolute;
- }
+  display: inline-table; 
  
+ }
 </style>
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
@@ -278,7 +273,7 @@ function MM_preloadImages() { //v3.0
     <ul>
    	  <li><a href="#">Leadership</a>
        <ul>
-       	<li><a href="../Subpages/athletic council.html">Atheletic Council</a></li>
+       	<li><a href="../Subpages/athleticcouncil.html">Atheletic Council</a></li>
 		<li><a href="../Subpages/Student council.html">Student Council</a></li>
        </ul>
 	  </li>
