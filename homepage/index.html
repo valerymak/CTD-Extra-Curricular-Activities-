@@ -145,10 +145,50 @@ body{
 	display: inline-table;
 
 }
+#apDiv8 {
+	position:absolute;
+	left:15px;
+	top:201px;
+	width:1111px;
+	height:256px;
+	z-index:1;
+}
+#apDiv9 {
+	position:absolute;
+	left:15px;
+	top:484px;
+	width:1108px;
+	height:217px;
+	z-index:2;
+	color: #FFF;
+}
 </style>
+ <script type="text/javascript">
+            var picPaths = ['Needed Images/1.jpg','Needed Images/2.jpg','Needed Images/3.jpg'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+        </script>
 </head>
 
 <body>
+<div id="apDiv8"><img id="imgBanner" src="" alt="" /></div>
+<div id="apDiv9"><h1><br>In High School, students are heavily involved with ISSF competition.  There is also a wide and diverse selection of student clubs organized every yearThese clubs are popular with students, offering them the opportunity to pursue their passions and interests or just to try something new.</h1></div>
 <span style="color:#5a7d95"><img src="Needed Images/logo.gif" width="141" height="37" alt="ais logo" style="position:absolute; left: 833px; top: 92px;"/></span><img src="Needed Images/244938d91aaa2221d1ce7408c4ea83.gif" width="620" height="91" alt="eca" style="position:absolute; left: 322px; top: 21px;"/>
 <div id="navMenu">
 	<ul>
