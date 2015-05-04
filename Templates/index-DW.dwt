@@ -219,6 +219,10 @@ body{
   display: inline-table; 
  
  }
+ #main{
+	 margin-right:auto;
+	 margin-left:auto;
+ }
 </style>
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
@@ -263,11 +267,12 @@ function MM_preloadImages() { //v3.0
     <ul>
    	  <li><a href="#">Educational</a>
        <ul>
-       	<li><a href="../Subpages/AMC.html">AMC</a></li>
+       	<li><a href="../Subpages/AMC.html">American Mathematics Competition</a></li>
 		<li><a href="../Subpages/Peer tutoring.html">Peer Tutoring</a></li>
-    	<li><a href="../Subpages/MUN.html">MUN</a></li>
+    	<li><a href="../Subpages/MUN.html">Model United Nations</a></li>
         <li><a href="../Subpages/Creativewriting.html">Creative Writing</a></li>
-
+        <li><a href="../Subpages/Engineering.html">Engineering Club</a></li>
+		<li><a href="../Subpages/Yearbook.html">Yearbook</a></li>
        </ul>
 	  </li>
     </ul>
@@ -300,14 +305,7 @@ function MM_preloadImages() { //v3.0
        </ul>
 	  </li>
     </ul>
-     <ul>
-   	  <li><a href="#">Technology</a>
-       <ul>
-       	<li><a href="../Subpages/Engineering.html">Engineering Club</a></li>
-		<li><a href="../Subpages/Yearbook.html">Year Book</a></li>
-       </ul>
-	  </li>
-    </ul>
+  
 <br class="clearFloat" />
 </div>
 </body>
