@@ -113,11 +113,11 @@ body{
 #apDiv11 {
 	position:absolute;
 	left:0px;
-	top:185px;
+	top:186px;
 	width:946px;
 	height:330px;
 	z-index:3;
-	left:25%;
+	left:388px;
 }
 #apDiv12 {
 	position:absolute;
@@ -253,9 +253,9 @@ function MM_preloadImages() { //v3.0
 <div id="apDiv13"></div>
 <!-- TemplateEndEditable -->
 <div id="apDiv14">
-  <h1> Join the Club!</h1>
-  <p>Send an email to <!-- TemplateBeginEditable name="Teacher Email" -->teacher<!-- TemplateEndEditable -->@ais.edu.hk to contact this teacher.</p><p>&nbsp;</p>
-<p>&nbsp;</p></div>
+  <h1 align="center"> Join the Club!</h1>
+  <p align="center">Send an email to <!-- TemplateBeginEditable name="Teacher Email" -->teacher<!-- TemplateEndEditable -->@ais.edu.hk to contact this teacher.</p><p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p></div>
 <div id="navMenu">
 	<ul>
    	  <li> <a href="#">Athletics</a>
@@ -289,7 +289,7 @@ function MM_preloadImages() { //v3.0
 	  </li>
     </ul>
      <ul>
-   	  <li><a href="#">Global Concern</a>
+   	  <li><a href="#">Global Concern</a> 
        <ul>
        	<li><a href="../Subpages/Bottlerecycling.html">Bottle Recycling</a></li>
 		<li><a href="../Subpages/Humanrights.html">Human Rights</a></li>
@@ -305,7 +305,6 @@ function MM_preloadImages() { //v3.0
        <ul>
        	<li><a href="../Subpages/Animeclub.html">Anime Club</a></li>
 		<li><a href="../Subpages/Jazzband.html">Jazz Band</a></li>
-        <li><a href="../Subpages/Danceclub.html">Dance Club</a></li>
        </ul>
 	  </li>
     </ul>
